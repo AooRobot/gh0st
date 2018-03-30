@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CJ60Lib", "CJ60Lib.vcxproj", "{E9140019-ED8F-A05B-8599-87A7EED6E268}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CJ60StaticLib", "CJ60StaticLib.vcxproj", "{5B04EF08-2AB2-46CC-A1BD-341B6981650A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9140019-ED8F-A05B-8599-87A7EED6E268}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9140019-ED8F-A05B-8599-87A7EED6E268}.Debug|Win32.Build.0 = Debug|Win32
+		{E9140019-ED8F-A05B-8599-87A7EED6E268}.Release|Win32.ActiveCfg = Release|Win32
+		{E9140019-ED8F-A05B-8599-87A7EED6E268}.Release|Win32.Build.0 = Release|Win32
+		{E9140019-ED8F-A05B-8599-87A7EED6E268}.Template|Win32.ActiveCfg = Release|Win32
+		{E9140019-ED8F-A05B-8599-87A7EED6E268}.Template|Win32.Build.0 = Release|Win32
+		{5B04EF08-2AB2-46CC-A1BD-341B6981650A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B04EF08-2AB2-46CC-A1BD-341B6981650A}.Debug|Win32.Build.0 = Debug|Win32
+		{5B04EF08-2AB2-46CC-A1BD-341B6981650A}.Release|Win32.ActiveCfg = Release|Win32
+		{5B04EF08-2AB2-46CC-A1BD-341B6981650A}.Release|Win32.Build.0 = Release|Win32
+		{5B04EF08-2AB2-46CC-A1BD-341B6981650A}.Template|Win32.ActiveCfg = Template|Win32
+		{5B04EF08-2AB2-46CC-A1BD-341B6981650A}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

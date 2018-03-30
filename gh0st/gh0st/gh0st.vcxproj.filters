@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="界面">
+      <UniqueIdentifier>{54d74c13-7015-4535-83e5-fbdb00a5676b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="完成端口">
+      <UniqueIdentifier>{245bbb12-8f64-4a45-b4e0-9e3b4aaac876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内存数据库">
+      <UniqueIdentifier>{0e80f8bd-ddc7-4d12-8228-ab6fc060d54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关系数据库">
+      <UniqueIdentifier>{7c6fb483-3182-46ac-84b8-dd9feb4dd953}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gh0st.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gh0stDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gh0stView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TabSDIFrameWnd.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemeUtil.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueColorToolBar.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomTabCtrl.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Buffer.h">
+      <Filter>完成端口</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CpuUsage.h">
+      <Filter>完成端口</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IOCPServer.h">
+      <Filter>完成端口</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mapper.h">
+      <Filter>完成端口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MySqlMng.h">
+      <Filter>关系数据库</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIcon.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\Ini.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gh0st.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gh0stDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gh0stView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TabSDIFrameWnd.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemeUtil.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueColorToolBar.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTabCtrl.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Buffer.cpp">
+      <Filter>完成端口</Filter>
+    </ClCompile>
+    <ClCompile Include="include\CpuUsage.cpp">
+      <Filter>完成端口</Filter>
+    </ClCompile>
+    <ClCompile Include="include\IOCPServer.cpp">
+      <Filter>完成端口</Filter>
+    </ClCompile>
+    <ClCompile Include="MySqlMng.cpp">
+      <Filter>关系数据库</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Ini.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="gh0st.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\gh0st.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\gh0stDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\gh0st.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
